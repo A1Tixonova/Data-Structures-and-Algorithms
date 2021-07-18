@@ -1,0 +1,7 @@
+Algorithm      | Time Complexity | Space Complexity
+Quicksort      | O(nlog2(n))     | O(nlog2(n))
+Mergesort      | O(nlog2(n))     | O(nlog2(n))
+Bubble sort    | O(n^2)          | O(n^2)
+Insertion sort | O(n^2)          | O(n^2)
+Selection sort | O(n^2)          | O(n^2)
+Count sort     | O(k + n)        | O(k)
