@@ -15,7 +15,7 @@ function buildBadMatchTable(str) {
 function boyerMoore(str, pattern) {
     var badMatchTable = buildBadMatchTable(pattern),
         offset = 0,
-        patternLastIndex = patternq.length - 1,
+        patternLastIndex = pattern.length - 1,
         scanIndex = patternLastIndex,
         maxOffset = str.length - pattern.length
 
@@ -40,5 +40,3 @@ function boyerMoore(str, pattern) {
     }
     return -1
 }
-
-console.log(boyerMoore('jellyjam','jam'))
